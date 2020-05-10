@@ -86,7 +86,11 @@ function createPassword(num) {
   let password = "";
   for (let i = 0; i < num; i++) {
     randomIndex = Math.floor(Math.random() * Math.floor(wordArray.length));
-    password += "-" + wordArray[randomIndex];
+    if (i === 0) {
+      password = wordArray[randomIndex];
+    } else {
+      password += "-" + wordArray[randomIndex];
+    }
   }
   return password;
 }
