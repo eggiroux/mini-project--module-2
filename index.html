@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mini-Project Module 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Your name" />
+    <meta name="description" content="Brief description" />
+    <meta property="og:title" content="Your Page Title" />
+    <meta property="og:description" content="Brief description" />
+    <meta property="og:image" content="/some-image.png" />
+    <meta property="og:url" content="/this-page.html" />
+    <meta property="og:site_name" content="Your Site Name" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="image description" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Jost:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="signupForm">
+      <h1>Signup Form</h1>
+      <section class="information-input">
+        <div class="input-pair">
+          <label>Full name</label>
+          <input type="text" autocomplete="name" required class="text-field" />
+        </div>
+        <div class="input-pair">
+          <label>Street address</label>
+          <input
+            type="text"
+            autocomplete="street-address"
+            required
+            class="text-field"
+          />
+        </div>
+        <div class="input-pair">
+          <label>Email address</label>
+          <input
+            type="email"
+            autocomplete="email"
+            required
+            class="text-field"
+          />
+        </div>
+        <div class="input-pair">
+          <label>Phone Number</label>
+          <input type="text" autocomplete="tel" required class="text-field" />
+        </div>
+        <div class="input-pair">
+          <label>Password</label>
+          <input
+            type="password"
+            autocomplete="new-password"
+            required
+            class="text-field"
+            id="password1"
+          />
+        </div>
+        <div class="input-pair">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            autocomplete="new-password"
+            id="password2"
+            required
+            class="text-field"
+          />
+        </div>
+      </section>
+
+      <section class="terms">
+        <label class="checkbox-label">
+          <input type="checkbox" id="terms-checkbox" /> I agree to the
+          <a href="">terms and services</a>
+        </label>
+      </section>
+      <section class="errorSection"></section>
+      <section class="btn-section">
+        <button class="clear button">Clear</button>
+        <button class="submit button" id="submitBtn">Submit</button>
+      </section>
+    </form>
+    <script src="passwordData.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

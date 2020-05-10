@@ -1,0 +1,89 @@
+body {
+  font-family: "Jost";
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 2px #ddd;
+  width: 70vw;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.information-input {
+  padding-bottom: 50px;
+}
+
+label {
+  font-size: 1rem;
+  text-align: right;
+  width: 33%;
+}
+
+.input-pair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.text-field {
+  width: 50%;
+  border-radius: 4px;
+  margin-left: 15px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+
+.terms {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.error-box {
+  margin: 0 auto;
+  background-color: hsla(333deg, 100%, 44%, 0.25);
+  padding: 15px;
+  width: 80%;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-section {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.button {
+  font-family: "Jost";
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  padding: 15px 50px;
+  border-radius: 8px;
+}
+
+.clear {
+  background-color: hsl(333deg, 100%, 44%);
+}
+
+.submit {
+  background-color: hsl(256deg, 100%, 44%);
+}
+
+.error-input-outline {
+  outline: 4px solid hsla(333deg, 100%, 44%, 0.25);
+}
