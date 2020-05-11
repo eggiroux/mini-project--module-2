@@ -37,7 +37,6 @@ function submitForm() {
         5
       )}`
     );
-    passwordBox1;
     passwordBox1.classList.add("error-input-outline");
     passwordBox1.focus();
     return;
