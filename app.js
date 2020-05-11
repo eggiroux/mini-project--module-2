@@ -82,14 +82,10 @@ function clearForm() {
 }
 
 function createPassword(num) {
-  let password = "";
+  let passwordArray = [];
   for (let i = 0; i < num; i++) {
     randomIndex = Math.floor(Math.random() * Math.floor(wordArray.length));
-    if (i === 0) {
-      password = wordArray[randomIndex];
-    } else {
-      password += "-" + wordArray[randomIndex];
-    }
+    passwordArray.push(wordArray[randomIndex]);
   }
-  return password;
+  return passwordArray.join("-");
 }
