@@ -41,6 +41,7 @@ label {
   margin-left: 15px;
   line-height: 30px;
   box-sizing: border-box;
+  outline: none;
 }
 
 .terms {
@@ -85,5 +86,5 @@ label {
 }
 
 .error-input-outline {
-  outline: 4px solid hsla(333deg, 100%, 44%, 0.25);
+  border: 4px solid hsla(333deg, 100%, 44%, 0.25);
 }
